@@ -91,7 +91,7 @@
       "Properties": {
         "Code": {
           "S3Bucket": "cohort2.serverless.deploys",
-          "S3Key": "serverless/sangeetha-project/dev/1694150276775-2023-09-08T05:17:56.775Z/sangeetha-project.zip"
+          "S3Key": "serverless/sangeetha-project/dev/1694151735054-2023-09-08T05:42:15.054Z/sangeetha-project.zip"
         },
         "Handler": "index.handler",
         "Runtime": "nodejs18.x",
@@ -114,14 +114,14 @@
         "ApiLogGroup"
       ]
     },
-    "ApiLambdaVersionvhdm8A9aMebkBEGe9gzbtGxL4yvCnf9EnGpdXv5etg": {
+    "ApiLambdaVersionH72tdc4rH2bUQRTW6vHE6XB57HFcWeCt0I454xTjg": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "v3wFbnCutd9jUuhIv6NQUr5K+VfVpvHKgbZS1m/ZNmU="
+        "CodeSha256": "5RroVDX+ibYuV2KlcP94AYAFMAZ/ifeQjHKkswWGUYY="
       }
     },
     "HttpApi": {
@@ -230,7 +230,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersionvhdm8A9aMebkBEGe9gzbtGxL4yvCnf9EnGpdXv5etg"
+        "Ref": "ApiLambdaVersionH72tdc4rH2bUQRTW6vHE6XB57HFcWeCt0I454xTjg"
       },
       "Export": {
         "Name": "sls-sangeetha-project-dev-ApiLambdaFunctionQualifiedArn"
